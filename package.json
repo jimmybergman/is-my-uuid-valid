@@ -1,0 +1,19 @@
+{
+  "name": "is-my-uuid-valid",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": "Linus Unnebäck <linus@folkdatorn.se>",
+  "main": "index.js",
+  "devDependencies": {
+    "array-includes": "^3.0.2",
+    "mocha": "^2.4.5",
+    "standard": "^6.0.4"
+  },
+  "scripts": {
+    "test": "standard && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/LinusU/is-my-uuid-valid.git"
+  }
+}
