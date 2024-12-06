@@ -22,7 +22,7 @@ module.exports = function validator (opts) {
 
   let version
   switch (typeof opts.version) {
-    case 'undefined': version = '[1-5]'; break
+    case 'undefined': version = '[1-8]'; break
     case 'number': version = parseVersion(opts.version); break
     default: throw new TypeError('Expected number')
   }
