@@ -29,7 +29,7 @@ validate(['hello', 'world']) // TypeError: expected string
 
 Returns a new validator, supported options:
 
-- `version`: (`1`, `2`, `3`, `4`, `5`) Which version of UUIDs to consider valid, omit for any of the supported versions.
+- `version`: (`1`, `2`, `3`, `4`, `5`, `6`, `7`, `8`) Which version of UUIDs to consider valid, omit for any of the supported versions.
 - `letterCase`: (`lower`, `upper`) Which letter case to be considered valid, omit to accept both cases.
 
 ### `validate(uuid)`
